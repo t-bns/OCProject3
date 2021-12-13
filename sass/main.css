@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&family=Shrikhand&display=swap");
+body {
+  width: 400px;
+  margin: auto;
+}
+
+h1 {
+  font-family: "shrikhand";
+  text-align: center;
+}
+
+h2 {
+  margin: 30px 70px 10px 70px;
+  font-family: "roboto";
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+}
+
+h3 {
+  margin: 10px 50px 30px 50px;
+  font-family: "roboto";
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+}
+
+p {
+  font-family: "roboto";
+}
+
+form {
+  background-color: #d6d6d6;
+}
+
+.section_principal {
+  background-color: #f0f0f0;
+  height: 290px;
+}
+
+.localisation {
+  background-color: grey;
+}
+
+.button__explorer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  height: 50px;
+  width: 200px;
+  background-color: #9356DC;
+  border-radius: 25px 25px 25px 25px;
+  color: white;
+  font-family: "roboto";
+  -webkit-box-shadow: 2px 2px 10px #505050;
+          box-shadow: 2px 2px 10px #505050;
+}
+
+.functionnement p {
+  font-family: "roboto";
+  font-size: 22px;
+  font-weight: 700;
+  position: relative;
+  left: 30px;
+}
+
+.functionnement {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 320px;
+}
+
+.choice {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.button__functionnement {
+  width: 85%;
+  background-color: #f0f0f0;
+  height: 70px;
+  border-radius: 20px 20px 20px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 2px 5px 10px #cccccc;
+          box-shadow: 2px 5px 10px #cccccc;
+}
+
+.choice_number {
+  position: relative;
+  left: 12.5px;
+  background-color: #9356DC;
+  width: 25px;
+  height: 25px;
+  border-radius: 50% 50% 50% 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  color: white;
+}
+
+.text_button_functionnement {
+  position: relative;
+  left: 60px;
+  font-family: "roboto";
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.icone_mobile {
+  position: relative;
+  left: 10px;
+  font-size: 20px;
+  color: grey;
+}
+/*# sourceMappingURL=main.css.map */

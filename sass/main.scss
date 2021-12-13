@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&family=Shrikhand&display=swap');
+
+$font_title : 'shrikhand';
+$font_body : 'roboto';
+$primary-color: #9356DC;
+$secondary-color : #FF79DA;
+$tertiary-color : #99E2D0;
+
+body
+{
+    width: 400px;
+    margin : auto;
+}
+
+h1
+{
+    font-family: $font_title;
+    text-align: center;
+}
+
+h2 
+{
+    margin : 30px 70px 10px 70px;
+    font-family: $font_body;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+}
+
+h3 
+{
+    margin : 10px 50px 30px 50px;
+    font-family: $font_body;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+}
+
+
+
+p
+{
+    font-family: $font_body;
+}
+
+form
+{
+    background-color: rgb(214, 214, 214);
+}
+
+.section_principal
+{
+    background-color: rgb(240, 240, 240);
+    height : 290px;
+}
+
+.localisation
+{
+    background-color: grey;
+}
+
+.button__explorer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 50px;
+    width: 200px;
+    background-color: $primary-color;
+    border-radius: 25px 25px 25px 25px;
+    color : white;
+    font-family: $font_body;
+    box-shadow: 2px 2px 10px rgb(80, 80, 80);
+}
+
+.functionnement p
+{
+    font-family: $font_body;
+    font-size: 22px;
+    font-weight: 700;
+    position: relative;
+    left : 30px;
+}
+
+
+.functionnement
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 320px;
+}
+
+.choice
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button__functionnement
+{
+    width: 85%;
+    background-color:rgb(240, 240, 240) ;
+    height: 70px;
+    border-radius: 20px 20px 20px 20px;
+    display: flex;
+    align-items: center;
+    box-shadow: 2px 5px 10px rgb(204, 204, 204);
+}
+
+.choice_number
+{
+    position: relative;
+    left: 12.5px;
+    background-color:$primary-color;
+    width: 25px;
+    height: 25px;
+    border-radius: 50% 50% 50% 50%;
+    display :flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+
+.text_button_functionnement
+{
+    position: relative;
+    left : 60px;
+    font-family: $font_body;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.icone_mobile
+{
+    position: relative;
+    left: 10px;
+    font-size: 20px;
+    color: grey;
+}
